@@ -1,0 +1,143 @@
+ body
+ {
+    background-image: url(../images/filmroll.jpg);
+    background-size: cover;
+    /*overflow: auto;*/
+ }
+ section#slidesHolder
+ {
+            /*background-color: green;*/
+    background-image: url(../images/filmgif.gif);
+    background-size: cover;
+    width: 700px;
+    height: 420px;
+    margin-left: 330px;
+    overflow: auto;
+ }
+section.header
+{
+    width: 100%;
+    overflow: auto;
+}
+h1
+{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div#clock
+{
+    /*background-color: orange;*/
+    color: white;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 80px;
+    width: 300px;
+    font-size: 30px;
+
+}
+div.start, .result
+{
+    background-color: orange;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+section.questionHolder
+{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+section.answer1, .answer2, .answer3, .answer4
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 160px;
+}
+section.answer1:hover
+{
+	background-color:  #ff3366;
+	color: black;
+	font-weight: bold;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+section.answer2:hover
+{
+	background-color: #9966cc;
+	color: black;
+	font-weight: bold;
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+section.answer3:hover
+{
+	background-color: #33ff00;
+	color: black;
+	font-weight: bold;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+section.answer4:hover
+{
+	background-color: #00ff99;
+	color: black;
+	font-weight: bold;
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+section.resetButton
+{
+    position: relative;
+    bottom: 80px;
+}
+div.startButton
+{
+    position: relative;
+    bottom: 350px;
+    left: 320px;
+}
+div.resultButton
+{
+    position: relative;
+    bottom: 80px;
+    left: 320px;
+}
+#music
+{
+	position: relative;
+	right: 100px;
+	bottom: 100px;
+	margin: 0;
+}
+#image
+{
+	width: 230px;
+	height: 250px;
+}
+#image2
+{
+	width: 450px;
+	height: 300px
+}
